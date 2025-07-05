@@ -103,7 +103,7 @@ export default function Index() {
               <Button
                 variant="outline"
                 size="lg"
-                className="border-2 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-semibold text-lg px-8 py-4 h-auto"
+                className="border-2 border-white/30 text-white hover:bg-white/10 bg-transparent font-semibold text-lg px-8 py-4 h-auto"
               >
                 Conoce más
                 <ArrowRight className="ml-2 h-5 w-5" />
@@ -117,17 +117,17 @@ export default function Index() {
       <section className="py-20 bg-secondary/20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900 dark:text-gray-100">
               Nuestra Misión
             </h2>
-            <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
+            <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
               Promovemos un compromiso social para servir con amor, alegría y
               mística a los menos favorecidos de la provincia de Guayas, a
               través de programas de concientización sobre responsabilidad
               social, educación integral y salud.
             </p>
             <div className="bg-gradient-to-r from-primary/10 to-accent/10 rounded-2xl p-8 border-l-4 border-primary">
-              <p className="text-lg font-medium text-foreground italic">
+              <p className="text-lg font-medium text-gray-900 dark:text-gray-100 italic">
                 "Fundada en 1988 por el Padre Ignacio María de Moreta, FASMAD
                 nació del llamado a ayudar a las personas vulnerables que vivían
                 en el botadero de basura San Eduardo."
